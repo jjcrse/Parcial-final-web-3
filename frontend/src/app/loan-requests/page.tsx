@@ -45,5 +45,4 @@ export default async function LoanRequestsPage({ searchParams }: LoanRequestsPag
   );
 }
 
-//defaultValue={{toolId ?? ""}}
-// LInea 21   const requests: LoanRequest, LoanRequest = response.ok ? await response.json() : [];
+// eso me dijo David G que no lo utilizara que pues no lo estaba utilizando
