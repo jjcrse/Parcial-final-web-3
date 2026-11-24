@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, ParseIntPipe, Post, Query, Query, UseGuards } from "@nestjs/common";
+import { Body, Controller, Get, Param, ParseIntPipe, Post, Query,  UseGuards } from "@nestjs/common";
 import { AuthGuard } from "@nestjs/passport";
 import { requestValidationPipe } from "../common/request-validation.pipe";
 import { CreateLoanRequestDto } from "./dto/create-loan-request.dto";
